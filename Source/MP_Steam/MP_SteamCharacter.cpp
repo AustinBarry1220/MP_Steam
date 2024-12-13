@@ -64,7 +64,7 @@ AMP_SteamCharacter::AMP_SteamCharacter():
 	if (OnlineSubsystem)
 	{
 		OnlineSessionInterface = OnlineSubsystem->GetSessionInterface();
-
+		/*
 		if (GEngine)
 		{
 			GEngine->AddOnScreenDebugMessage(
@@ -73,7 +73,7 @@ AMP_SteamCharacter::AMP_SteamCharacter():
 				FColor::Blue,
 				FString::Printf(TEXT("Found Subsystem % s"), *OnlineSubsystem->GetSubsystemName().ToString())
 			);
-		}
+		}*/
 	}
 
 }
